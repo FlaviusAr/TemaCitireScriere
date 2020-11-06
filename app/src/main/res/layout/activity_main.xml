@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editlastnameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:hint="lastname" />
+
+    <EditText
+        android:id="@+id/editfirstnameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        android:textAlignment="center"
+        android:hint="firstname"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvare sp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/salvareButton"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fisier"
+        android:layout_marginTop="220dp"
+        android:id="@+id/fisierButton"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room"
+        android:layout_marginTop="320dp"
+        android:id="@+id/roomButton"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="125dp"
+        android:textAlignment="center"
+        android:id="@+id/lastnameTextview"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="165dp"
+        android:textAlignment="center"
+        android:id="@+id/firstnameTextview"/>
+
+</RelativeLayout>
